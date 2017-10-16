@@ -12,4 +12,3 @@ def md5File(filePath):
         return hash.hexdigest()
     except IOError:
         print('Could not find file')
-print (md5File('C:\Users\joshu\DdsModel2.log'))
